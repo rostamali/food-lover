@@ -119,7 +119,7 @@ body{
 
 
 #special-menu{
-    padding: 40px 60px 100px 60px;
+    padding: 40px 60px 120px 60px;
     margin-top: 160px;
 }
 .special-menu-item{
@@ -128,7 +128,10 @@ body{
     margin: 0 2.5%;
     text-align: center;
     padding: 0 10px 20px 10px;
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, #FB934A,#FD4D2F);
+    border-image-slice: 1;
 }
 .special-menu-item img{
     width: 100%;
